@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/currencyListFragment">
+
+    <fragment
+        android:id="@+id/currencyListFragment"
+        android:name="com.soft.centralcurrency.ui.currencyList.CurrencyListFragment"
+        android:label="currency_list_fragment"
+        tools:layout="@layout/currency_list_fragment" />
+    <fragment
+        android:id="@+id/currencyCalculateFragment"
+        android:name="com.soft.centralcurrency.ui.currencyCalculate.CurrencyCalculateFragment"
+        android:label="CurrencyCalculateFragment" />
+    <fragment
+        android:id="@+id/goldCurrencyFragment"
+        android:name="com.soft.centralcurrency.ui.goldcurrency.GoldCurrencyFragment"
+        android:label="GoldCurrencyFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.soft.centralcurrency.ui.setting.SettingFragment"
+        android:label="SettingFragment" />
+</navigation>

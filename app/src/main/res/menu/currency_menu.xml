@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/currencyListFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/currencyCalculateFragment"
+        android:icon="@drawable/ic_x_change"
+        android:title="@string/convertRate" />
+    <item
+        android:id="@+id/goldCurrencyFragment"
+        android:icon="@drawable/ic_gold"
+        android:title="@string/gold" />
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more" />
+</menu>

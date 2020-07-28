@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CentralCurrency</string>
+    <string name="home">Home</string>
+    <string name="convertRate">Convert Rate</string>
+    <string name="gold">Gold</string>
+    <string name="more">More</string>
+    <string name="mmk">MMK</string>
+    <string name="lasted_updated">Lasted Updated</string>
+</resources>
